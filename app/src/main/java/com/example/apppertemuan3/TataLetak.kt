@@ -23,3 +23,14 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun ContohColumn(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .padding(top = 20.dp, start = 20.dp)
+    ) {
+        Text("Hello")
+        Text("World")
+    }
+}
