@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.sp
 fun TugasLogin(modifier: Modifier = Modifier) {
     Box(modifier = modifier.fillMaxSize()) {
         Image(
-            painter = painterResource(id = R.drawable.bg_masjid),
+            painter = painterResource(id = R.drawable.bgbiru),
             contentDescription = null,
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
@@ -78,7 +78,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
             Spacer(modifier = Modifier.height(16.dp))
             Image(
-                painter = painterResource(id = R.drawable.kabah),
+                painter = painterResource(id = R.drawable.robin),
                 contentDescription = null,
                 modifier = Modifier
                     .size(300.dp)
